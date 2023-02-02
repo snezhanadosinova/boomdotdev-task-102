@@ -6,11 +6,7 @@ function App() {
     <div className="App">
       <motion.form
         initial={{ x: "-100vw" }}
-        animate={{ x: "-50%" }}
-        style={{
-          position: "absolute",
-          top: "15%",
-        }}
+        animate={{ x: "0" }}
         transition={{ duration: 1 }}
       >
         <h1>Create An Account</h1>
